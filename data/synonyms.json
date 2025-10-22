@@ -1,0 +1,181 @@
+{
+  "device_synonyms": {
+    "mini c-arm": [
+      "mini c-arm",
+      "extremity c-arm",
+      "compact c-arm",
+      "small c-arm",
+      "SID \u2264 45 cm",
+      "SID<=45cm",
+      "\u226445 cm SID"
+    ],
+    "c-arm": [
+      "c-arm",
+      "fluoroscopic c-arm",
+      "mobile c-arm",
+      "fixed c-arm"
+    ],
+    "fluoroscopy": [
+      "fluoroscopy",
+      "fluoro",
+      "R&F",
+      "radiography & fluoroscopy"
+    ],
+    "ct": [
+      "ct",
+      "computed tomography",
+      "ct scanner",
+      "interventional ct",
+      "fluoro-ct",
+      "ct fluoroscopy"
+    ],
+    "cbct": [
+      "cbct",
+      "cone-beam ct",
+      "dynaCT",
+      "3D rotational angiography"
+    ],
+    "interventional": [
+      "interventional",
+      "angio",
+      "cardiac cath",
+      "ir suite",
+      "hybrid or",
+      "neuro angio"
+    ],
+    "dental": [
+      "dental",
+      "intraoral",
+      "pan",
+      "panoramic",
+      "ceph",
+      "handheld dental x-ray"
+    ],
+    "mammography": [
+      "mammography",
+      "mammo",
+      "dbt",
+      "tomosynthesis",
+      "cesm",
+      "contrast-enhanced mammography"
+    ],
+    "radiography": [
+      "radiography",
+      "general x-ray",
+      "rad room"
+    ],
+    "mobile_radiography": [
+      "mobile x-ray",
+      "portable x-ray",
+      "mobile radiography",
+      "portable radiography"
+    ],
+    "gamma": [
+      "gamma",
+      "sealed source",
+      "nuclear medicine",
+      "brachytherapy sources (transport/storage)"
+    ],
+    "shielding": [
+      "shielding",
+      "barriers",
+      "controlled area",
+      "uncontrolled area",
+      "occupancy",
+      "ncrp-147 reference"
+    ]
+  },
+  "concept_synonyms": {
+    "operator": [
+      "operator",
+      "user",
+      "technologist",
+      "registrant staff",
+      "authorized user"
+    ],
+    "registrant": [
+      "registrant",
+      "facility",
+      "licensee",
+      "owner"
+    ],
+    "dosimetry": [
+      "dosimetry",
+      "radiation dose",
+      "patient dose",
+      "entrance skin dose",
+      "dose display",
+      "air kerma",
+      "kerma-area product",
+      "KAP",
+      "DAP"
+    ],
+    "records": [
+      "records",
+      "recordkeeping",
+      "retention",
+      "logs",
+      "documentation",
+      "archive"
+    ],
+    "qa_qc": [
+      "qa",
+      "qc",
+      "quality assurance",
+      "quality control",
+      "performance testing",
+      "annual test"
+    ],
+    "posting": [
+      "posting",
+      "signage",
+      "warning signs",
+      "notice",
+      "instructions"
+    ],
+    "training": [
+      "training",
+      "competency",
+      "qualification",
+      "credentialing"
+    ],
+    "surveys": [
+      "surveys",
+      "radiation protection survey",
+      "acceptance survey",
+      "leakage",
+      "scatter survey"
+    ],
+    "mobile_vs_fixed": [
+      "mobile",
+      "portable",
+      "fixed"
+    ],
+    "sid": [
+      "sid",
+      "source-to-image distance",
+      "source image distance"
+    ]
+  },
+  "normalization_rules": {
+    "units": {
+      "sid": [
+        "cm",
+        "mm"
+      ],
+      "dose": [
+        "mGy",
+        "\u00b5Gy",
+        "Gy",
+        "cGy",
+        "mSv",
+        "\u00b5Sv"
+      ]
+    },
+    "numeric_patterns": [
+      "\u2264\\s*45\\s*cm",
+      "<=\\s*45\\s*cm",
+      "sid\\s*(<=|\u2264)\\s*45\\s*cm"
+    ]
+  }
+}
